@@ -81,7 +81,7 @@ const Main = () => {
                   <p className="sub-title">{item.description}</p>
                   <p className="tec">Technologies : {item.key_techs}</p>
                   <div className="flex icons">
-                    <a href="" className="icon-link"></a>
+                    <a href={item.live} className="icon-link"></a>
                     <a href={item.github_url} className="icon-github"></a>
                   </div>
                 </div>

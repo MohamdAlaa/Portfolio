@@ -9,6 +9,7 @@ export const myProjects = [
     imgPath: "./images/1.png",
     github_url: "https://github.com/MohamdAlaa/Admin-Dahboard",
     key_techs: "React js, Sass, ReChart",
+    live: "https://admin-dashboardp.netlify.app/",
   },
   //Quiz app
   {
@@ -52,7 +53,8 @@ export const myProjects = [
     category: ["reactjs", "typescript", "nextjs"],
     imgPath: "./images/5.png",
     github_url: "https://github.com/MohamdAlaa/CarHub",
-    key_techs: "Next js, TypeScript, Tailwind CSS, vite ",
+    key_techs: "Next js, TypeScript, Tailwind CSS, vite",
+    live: "https://car-hub-zeta-blond.vercel.app/",
   },
   //Simple Portfolio
   {
