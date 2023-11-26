@@ -1,0 +1,138 @@
+header.flex {
+  justify-content: space-between;
+  padding: 0 2.4rem;
+  margin-top: 1rem;
+}
+
+header button.menu {
+  display: none;
+}
+header.flex nav {
+  background-color: var(--bgHeader);
+  padding: 0.77rem 1.6rem;
+  border-radius: 55px;
+  box-shadow: 1px 1px 20px var(--title);
+}
+header ul.flex {
+  gap: 16px;
+}
+
+header ul li a {
+  color: var(--title);
+  opacity: 0.9;
+  font-size: 0.88rem;
+  font-weight: 500;
+  letter-spacing: 1.5px;
+}
+
+header ul li a:hover {
+  color: var(--blue);
+  opacity: 0.9;
+  font-size: 0.88rem;
+  font-weight: 500;
+}
+
+header button {
+  font-size: 1.2rem;
+}
+
+/* Button & Icons */
+header .icon-menu,
+header button.mode {
+  background-color: var(--bgHeader);
+  height: 2.4rem;
+  width: 2.4rem;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  color: var(--subtitle);
+  border: 1px solid rgba(250, 128, 114, 0.249);
+  transition: 0.9s;
+}
+
+header .icon-sun {
+  color: orange;
+}
+
+header .icon-menu:hover,
+header button.mode:hover {
+  color: var(--title);
+  border: 1px solid rgba(250, 128, 114, 0.662);
+}
+
+header .icon-close {
+  color: var(--subtitle);
+  transition: 0.4s;
+  margin-bottom: -2rem;
+}
+
+header .icon-close:hover {
+  color: crimson;
+  rotate: 180deg;
+}
+
+/* Model => pop up */
+header .fixed {
+  position: fixed;
+  inset: 0; /*top=o,bottom=0,right=0,left=0*/
+  background-color: rgba(40, 40, 48, 0.91);
+  z-index: 11;
+  backdrop-filter: blur(4px);
+}
+
+/* Responsive */
+@keyframes popup {
+  0% {
+    scale: 0;
+  }
+  60% {
+    scale: 1.2;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+header .fixed ul.model {
+  animation: popup 0.8s 1;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+  background-color: var(--secondary);
+}
+
+header .fixed ul.model li {
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.77rem;
+  padding-top: 0.5rem;
+}
+
+header .fixed ul.model li:first-child {
+  text-align: right;
+  border: none;
+  padding-bottom: 0;
+  padding-top: 0.2rem;
+}
+header .fixed ul.model li:last-child {
+  border-bottom: none;
+}
+
+header .fixed ul.model li a {
+  font-size: 1rem;
+}
+
+/* header ul li a:hover {
+  color: green;
+} */
+/*responsive*/
+@media (max-width: 700px) {
+  header.flex nav {
+    display: none;
+  }
+  header button.menu {
+    display: block;
+  }
+}
