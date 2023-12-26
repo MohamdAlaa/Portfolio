@@ -14,7 +14,7 @@ header.flex nav {
   box-shadow: 1px 1px 20px var(--title);
 }
 header ul.flex {
-  gap: 16px;
+  gap: 35px;
 }
 
 header ul li a {

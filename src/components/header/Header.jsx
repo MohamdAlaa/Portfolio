@@ -25,23 +25,19 @@ const Header = () => {
         className="menu icon-menu flex"
       ></button>
       <div />
-      {/* <nav>
+      <nav>
         <ul className="flex">
           <li>
-            <a href="#footer">About</a>
+            <a href="#hero">About</a>
           </li>
           <li>
             <a href="#main">Projects</a>
           </li>
           <li>
-            <a href="">Speaking</a>
-          </li>
-
-          <li>
             <a href="#contact">Contact</a>
           </li>
         </ul>
-      </nav> */}
+      </nav>
       <button
         onClick={() => {
           // Send value to LS
