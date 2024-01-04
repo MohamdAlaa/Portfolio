@@ -5,11 +5,22 @@ export const myProjects = [
     description:
       " This is a beautiful Admin Dashboard design  full control to the Admin and it looks amazing. ",
     projectTitle: "Admin Dashboard",
-    category: ["reactjs", "sass"],
+    category: ["reactjs"],
     imgPath: "./images/1.webp",
     github_url: "https://github.com/MohamdAlaa/Admin-Dahboard",
     key_techs: "React js, Sass, ReChart",
     live: "https://admin-dashboardp.netlify.app/",
+  },
+  //Travel-App
+  {
+    id: 12,
+    description: " This is a beautiful Responsive Modern UI/UX Website . ",
+    projectTitle: "Travel App",
+    category: ["reactjs", "nextjs", "typescript"],
+    imgPath: "./images/12.webp",
+    github_url: "https://github.com/MohamdAlaa/Travel-App",
+    key_techs: "React js, Next js, Typescript, Tailwind CSS",
+    live: "https://travel-app-jet-six.vercel.app/",
   },
   //Quiz app
   {
@@ -39,7 +50,7 @@ export const myProjects = [
     description:
       "First and Simple next js project it was about learning next , routing, api , SSR , SSG.",
     projectTitle: "Simple next js project",
-    category: ["nextjs"],
+    category: ["reactjs", "nextjs"],
     imgPath: "./images/4.webp",
     github_url: "https://github.com/MohamdAlaa/simple-next-js-project",
     key_techs: "React js, Next js",
@@ -104,7 +115,7 @@ export const myProjects = [
   {
     id: 10,
     description:
-      "An E-commerce app because i always want to try how u can deal with shopping card in this kind of apps it was Wonderful experience.",
+      "An E-commerce app because i always want to try how u can deal with shopping card it was Wonderful experience.",
     projectTitle: "E-commerce app",
     category: ["reactjs"],
     imgPath: "./images/10.webp",
