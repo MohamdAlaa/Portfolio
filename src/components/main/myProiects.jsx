@@ -14,7 +14,7 @@ export const myProjects = [
   //Travel-App
   {
     id: 12,
-    description: " This is a beautiful Responsive Modern UI/UX Website . ",
+    description: "Travel App a Wonderful Responsive Modern UI/UX Website . ",
     projectTitle: "Travel App",
     category: ["reactjs", "nextjs", "typescript"],
     imgPath: "./images/12.webp",

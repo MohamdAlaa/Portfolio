@@ -118,7 +118,7 @@ body {
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background-color: #888;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
@@ -127,7 +127,7 @@ body {
 
 /* for Firefox */
 html {
-  scrollbar-color: #9e4673 #3d4a59;
+  scrollbar-color: #888;
 }
 
 /* ==================== Responsive =============== */

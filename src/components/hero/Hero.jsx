@@ -28,11 +28,11 @@ const Hero = () => {
         </motion.h1>
         <p className="sub-title">
           I’m Mohamed Alaa , a Front-End Developer and Software Developer and
-          {/* I’m Talented and Creative Front-End Developer */} skilled at
-          designing sites and writing clean code. Work Experience Matched
-          content to customer specifications through skilled design, writing and
-          editing . Created innovative designs with use of programming languages
-          , Framework , tools Developed and deployed successfully
+          {/* I’m Talented and Creative Front-End Developer skilled at designing */}
+          sites and writing clean code. Work Experience Matched content to
+          customer specifications through skilled design, writing and editing .
+          Created innovative designs with use of programming languages ,
+          Framework , tools Developed and deployed successfully
         </p>
         <div className="all-icons flex">
           <a
