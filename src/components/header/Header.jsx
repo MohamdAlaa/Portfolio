@@ -65,19 +65,13 @@ const Header = () => {
               />
             </li>
             <li>
-              <a href="">About</a>
+              <a href="#hero">About</a>
             </li>
             <li>
-              <a href="">Projects</a>
+              <a href="#main">Projects</a>
             </li>
             <li>
-              <a href="">Speaking</a>
-            </li>
-            <li>
-              <a href="">Articles</a>
-            </li>
-            <li>
-              <a href="">Contact</a>
+              <a href="#contact">Contact</a>
             </li>
           </ul>
         </div>
