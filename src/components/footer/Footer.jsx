@@ -10,7 +10,7 @@ const Footer = () => {
           <a href="#main">Projects</a>
         </li>
       </ul>
-      <p>© 2023 Mohamed Alaa. All rights reserved.</p>
+      <p>© 2024 Mohamed Alaa. All rights reserved.</p>
     </footer>
   );
 };

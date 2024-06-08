@@ -1,4 +1,16 @@
 export const myProjects = [
+  {
+    id: 1,
+    description:
+      " A Wonderful Prayers Time App for knowing the next prayer and Calculating the time remaining until the next prayer ",
+    projectTitle: "Prayers-Time",
+    category: ["reactjs"],
+    imgPath: "./images/13.webp",
+    github_url: "https://github.com/MohamdAlaa/Admin-Dahboard",
+    key_techs: "React js, Axios, Moment",
+    live: "https://main--tangerine-raindrop-e89c5c.netlify.app/",
+  },
+
   //Admin Dashboard
   {
     id: 1,
