@@ -27,12 +27,14 @@ const Hero = () => {
           Front-End Developer , Software Developer.
         </motion.h1>
         <p className="sub-title">
-          I’m Mohamed Alaa , a Front-End Developer and Software Developer and
-          {/* I’m Talented and Creative Front-End Developer skilled at designing */}
-          sites and writing clean code. Work Experience Matched content to
-          customer specifications through skilled design, writing and editing .
-          Created innovative designs with use of programming languages ,
-          Framework , tools Developed and deployed successfully
+          I’m Mohamed Alaa A Results-driven Front End Developer skilled in
+          designing and implementing responsive and user-friendly web
+          interfaces. Proficient in HTML, CSS, JavaScript (ES6), and TypeScript,
+          with extensive experience using frameworks and libraries such as
+          React.js, Redux, and Next.js. Adept at collaborating with cross
+          functional teams to deliver high-quality web applications. Strong
+          problem-solving skills and a keen eye for detail, committed to staying
+          updated with the latest industry trends and technologies.
         </p>
         <div className="all-icons flex">
           <a
